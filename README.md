@@ -264,37 +264,3 @@ Free for personal and commercial use. Attribution appreciated but not required.
 <p align="center">
   If this template helped you, consider giving it a ⭐
 </p>
-# Portfolio Template 2 - Gradient Theme
-
-## 🎨 Theme Description
-A modern portfolio with beautiful gradient backgrounds, smooth transitions, and contemporary design elements.
-
-## 📁 File Structure
-```
-Portfolio-2/
-├── index.html          # Main HTML file
-├── css/
-│   └── style.css       # Stylesheet
-├── js/
-│   └── script.js       # JavaScript file
-└── favicon.svg         # Website icon
-```
-
-## 🚀 Quick Start
-1. Open `index.html` in your browser to preview
-2. Edit `index.html` to update your personal information
-3. Modify `css/style.css` to change colors and styling
-
-## ✨ Features
-- Beautiful gradient backgrounds
-- Smooth scroll animations
-- Modern card designs
-- Responsive layout
-- Clean typography
-- Interactive hover effects
-
-## 📝 Customization Guide
-See the main `USER_GUIDE.md` in the root folder for detailed customization instructions.
-
----
-**Portfolio Template 2** | Gradient Theme
