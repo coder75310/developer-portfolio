@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <a href="https://byte-way.github.io/developer-portfolio/"><img src="https://img.shields.io/badge/Live%20Demo-Visit%20Site-818cf8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo"></a>
+  <a href="https://byte-way.github.io/developer-portfolio/"><img src="https://img.shields.io/badge/%20%20%E2%96%B6%20%20LIVE%20DEMO%20%E2%80%94%20Visit%20Site%20%20-818cf8?style=for-the-badge&labelColor=4f46e5&logo=googlechrome&logoColor=white&scale=1.5" height="50" alt="Live Demo"></a>
 </p>
 
 <p align="center">
