@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Name — Senior Full-Stack Developer & Software Architect. 8+ years building scalable distributed systems, cloud-native applications, and developer tooling.">
+    <title>Your Name — Software Architect & Full-Stack Engineer</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- SVG Filters -->
+    <svg class="svg-filters" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <filter id="glow-strong">
+                <feGaussianBlur stdDeviation="3" result="blur" />
+                <feComposite in="SourceGraphic" in2="blur" operator="over" />
+            </filter>
+        </defs>
+    </svg>
+</head>
+<body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"><div class="scroll-progress-bar"></div></div>
+
+    <!-- Ambient Background -->
+    <div class="grain-overlay"></div>
+    <div class="aurora"></div>
+    <div class="grid-bg"></div>
+    <div class="mouse-glow" id="mouseGlow"></div>
+    <div class="gradient-orb gradient-orb--1"></div>
+    <div class="gradient-orb gradient-orb--2"></div>
+    <div class="gradient-orb gradient-orb--3"></div>
+    <div class="gradient-orb gradient-orb--4"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo glitch-hover" data-text="{AR}">
+                    <span class="logo-bracket">{</span>AR<span class="logo-bracket">}</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#expertise" class="nav-link">Expertise</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#writing" class="nav-link">Writing</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <a href="#contact" class="btn btn-nav magnetic">Let's Talk</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Morphing Blobs -->
+    <div class="morph-blobs">
+        <div class="morph-blob morph-blob--1"></div>
+        <div class="morph-blob morph-blob--2"></div>
+        <div class="morph-blob morph-blob--3"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-content reveal">
+                    <div class="hero-badge">
+                        <span class="status-dot"></span>
+                        <span class="typewriter" data-text="Available for new opportunities"></span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="hero-line"><span class="hero-word">I</span> <span class="hero-word">architect</span> <span class="hero-word"><span class="gradient-text shimmer">systems</span></span> <span class="hero-word">that</span></span>
+                        <br><span class="hero-line"><span class="hero-word">scale</span> <span class="hero-word">to</span> <span class="hero-word"><span class="gradient-text shimmer">millions</span></span><span class="hero-word">.</span></span>
+                    </h1>
+                    <p class="hero-description">
+                        Senior Full-Stack Developer &amp; Software Architect with 8+ years of experience
+                        designing distributed systems, cloud-native applications, and developer tooling.
+                        I turn complex engineering challenges into elegant, maintainable solutions.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="8">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="50">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="100">0</span><span class="stat-suffix">K+</span>
+                            <span class="stat-label">Users Served</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="99">0</span><span class="stat-suffix">.9%</span>
+                            <span class="stat-label">Uptime SLA</span>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary magnetic">
+                            <span>View Architecture</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-ghost magnetic">
+                            <i class="fas fa-download"></i>
+                            <span>Download Resume</span>
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="#" class="hero-social-link magnetic" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="hero-social-link magnetic" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="hero-social-link magnetic" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="hero-social-link magnetic" aria-label="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal">
+                    <div class="hero-glow-ring"></div>
+                    <div class="code-window tilt-card">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span class="code-dot code-dot--red"></span>
+                                <span class="code-dot code-dot--yellow"></span>
+                                <span class="code-dot code-dot--green"></span>
+                            </div>
+                            <span class="code-filename">architect.config.ts</span>
+                            <div class="code-actions">
+                                <i class="fas fa-copy"></i>
+                            </div>
+                        </div>
+                        <div class="code-body">
+                            <pre><code><span class="code-keyword">const</span> <span class="code-variable">architect</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"Your Name"</span>,
+  <span class="code-property">role</span>: <span class="code-string">"Software Architect"</span>,
+  <span class="code-property">stack</span>: [
+    <span class="code-string">"TypeScript"</span>, <span class="code-string">"React"</span>,
+    <span class="code-string">"Node.js"</span>, <span class="code-string">"Go"</span>,
+    <span class="code-string">"PostgreSQL"</span>, <span class="code-string">"Redis"</span>,
+    <span class="code-string">"AWS"</span>, <span class="code-string">"Kubernetes"</span>
+  ],
+  <span class="code-property">architecture</span>: [
+    <span class="code-string">"Microservices"</span>,
+    <span class="code-string">"Event-Driven"</span>,
+    <span class="code-string">"Domain-Driven Design"</span>
+  ],
+  <span class="code-property">passion</span>: <span class="code-string">"Building systems that
+    scale gracefully under pressure"</span>,
+  <span class="code-method">hire</span>() {
+    <span class="code-keyword">return</span> <span class="code-string">"Let's build something
+      extraordinary together"</span>;
+  }
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <div class="wave-divider">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+            <path d="M0,50 C360,100 720,0 1080,50 C1260,75 1380,25 1440,50 L1440,100 L0,100Z" fill="var(--bg-secondary)"/>
+            <path d="M0,60 C360,90 720,20 1080,60 C1260,80 1380,35 1440,55 L1440,100 L0,100Z" fill="var(--bg-secondary)" opacity="0.5"/>
+        </svg>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">&lt;about&gt;</span>
+                <h2 class="section-title">Engineering Philosophy</h2>
+                <p class="section-subtitle">How I approach building software that lasts</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glass-card holo-card reveal" data-tilt>
+                    <div class="card-shine"></div>
+                    <div class="animated-border"></div>
+                    <div class="about-card-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <h3>Systems Thinking</h3>
+                    <p>I design software as interconnected systems, not isolated features. Every architectural decision considers scalability, maintainability, and team velocity.</p>
+                </div>
+                <div class="about-card glass-card holo-card reveal" data-tilt>
+                    <div class="card-shine"></div>
+                    <div class="animated-border"></div>
+                    <div class="about-card-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Clean Architecture</h3>
+                    <p>Domain-driven design, clear boundaries, and dependency inversion. Code should communicate intent and be testable at every layer.</p>
+                </div>
+                <div class="about-card glass-card holo-card reveal" data-tilt>
+                    <div class="card-shine"></div>
+                    <div class="animated-border"></div>
+                    <div class="about-card-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Performance-First</h3>
+                    <p>Every millisecond matters. I optimize critical paths, implement caching strategies, and design for the 99th percentile &mdash; not just the happy path.</p>
+                </div>
+                <div class="about-card glass-card holo-card reveal" data-tilt>
+                    <div class="card-shine"></div>
+                    <div class="animated-border"></div>
+                    <div class="about-card-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Developer Experience</h3>
+                    <p>Great teams ship great software. I invest in CI/CD pipelines, testing infrastructure, and documentation that empowers every engineer on the team.</p>
+                </div>
+            </div>
+            <div class="about-bio reveal">
+                <div class="about-bio-content">
+                    <p>I'm a <strong>Senior Full-Stack Developer &amp; Software Architect</strong> based in San Francisco. Over the past 8 years, I've led engineering teams at startups and enterprise companies, architecting systems that serve hundreds of thousands of users.</p>
+                    <p>My sweet spot is the intersection of <strong>backend architecture</strong> and <strong>frontend performance</strong> &mdash; building APIs that are a joy to consume and interfaces that feel instantaneous. I believe the best software is invisible: users achieve their goals without friction, and developers ship with confidence.</p>
+                    <p>When I'm not writing code, I'm mentoring junior developers, contributing to open-source, or writing about distributed systems and software architecture on my blog.</p>
+                </div>
+                <div class="about-bio-metrics">
+                    <div class="metric">
+                        <span class="metric-value">2.4K+</span>
+                        <span class="metric-label">GitHub Contributions (2025)</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">15+</span>
+                        <span class="metric-label">Open Source Projects</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">30+</span>
+                        <span class="metric-label">Technical Articles</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">8</span>
+                        <span class="metric-label">Devs Mentored</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">&lt;expertise&gt;</span>
+                <h2 class="section-title">Technical Expertise</h2>
+                <p class="section-subtitle">Technologies and patterns I use to build production systems</p>
+            </div>
+            <div class="expertise-grid">
+                <div class="expertise-category float-card reveal">
+                    <div class="animated-border"></div>
+                    <h3 class="expertise-category-title">
+                        <i class="fas fa-code"></i>
+                        Languages &amp; Frameworks
+                    </h3>
+                    <div class="tech-pills">
+                        <span class="tech-pill tech-pill--primary">TypeScript</span>
+                        <span class="tech-pill tech-pill--primary">JavaScript</span>
+                        <span class="tech-pill tech-pill--primary">Python</span>
+                        <span class="tech-pill tech-pill--secondary">Go</span>
+                        <span class="tech-pill tech-pill--primary">React</span>
+                        <span class="tech-pill tech-pill--primary">Next.js</span>
+                        <span class="tech-pill tech-pill--primary">Node.js</span>
+                        <span class="tech-pill tech-pill--secondary">Django</span>
+                        <span class="tech-pill tech-pill--secondary">Express</span>
+                        <span class="tech-pill tech-pill--secondary">NestJS</span>
+                    </div>
+                </div>
+                <div class="expertise-category float-card reveal">
+                    <div class="animated-border"></div>
+                    <h3 class="expertise-category-title">
+                        <i class="fas fa-cloud"></i>
+                        Cloud &amp; Infrastructure
+                    </h3>
+                    <div class="tech-pills">
+                        <span class="tech-pill tech-pill--primary">AWS</span>
+                        <span class="tech-pill tech-pill--secondary">GCP</span>
+                        <span class="tech-pill tech-pill--primary">Docker</span>
+                        <span class="tech-pill tech-pill--primary">Kubernetes</span>
+                        <span class="tech-pill tech-pill--secondary">Terraform</span>
+                        <span class="tech-pill tech-pill--secondary">CI/CD</span>
+                        <span class="tech-pill tech-pill--secondary">GitHub Actions</span>
+                        <span class="tech-pill tech-pill--secondary">Serverless</span>
+                    </div>
+                </div>
+                <div class="expertise-category float-card reveal">
+                    <div class="animated-border"></div>
+                    <h3 class="expertise-category-title">
+                        <i class="fas fa-database"></i>
+                        Data &amp; Storage
+                    </h3>
+                    <div class="tech-pills">
+                        <span class="tech-pill tech-pill--primary">PostgreSQL</span>
+                        <span class="tech-pill tech-pill--primary">Redis</span>
+                        <span class="tech-pill tech-pill--secondary">MongoDB</span>
+                        <span class="tech-pill tech-pill--secondary">Elasticsearch</span>
+                        <span class="tech-pill tech-pill--secondary">Kafka</span>
+                        <span class="tech-pill tech-pill--secondary">RabbitMQ</span>
+                    </div>
+                </div>
+                <div class="expertise-category float-card reveal">
+                    <div class="animated-border"></div>
+                    <h3 class="expertise-category-title">
+                        <i class="fas fa-drafting-compass"></i>
+                        Architecture &amp; Patterns
+                    </h3>
+                    <div class="tech-pills">
+                        <span class="tech-pill tech-pill--primary">Microservices</span>
+                        <span class="tech-pill tech-pill--primary">Event-Driven</span>
+                        <span class="tech-pill tech-pill--primary">DDD</span>
+                        <span class="tech-pill tech-pill--secondary">CQRS</span>
+                        <span class="tech-pill tech-pill--secondary">Event Sourcing</span>
+                        <span class="tech-pill tech-pill--secondary">REST / GraphQL</span>
+                        <span class="tech-pill tech-pill--secondary">TDD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">&lt;projects&gt;</span>
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-subtitle">Production systems I've architected and built</p>
+            </div>
+            <div class="projects-list">
+                <article class="project-showcase reveal">
+                    <div class="project-showcase-visual">
+                        <div class="project-showcase-skeleton">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="project-showcase-content">
+                        <div class="project-showcase-meta">
+                            <span class="project-role">Lead Developer</span>
+                            <span class="project-duration">6 months &middot; 8-person team</span>
+                        </div>
+                        <h3 class="project-showcase-title">ShopFlow &mdash; E-Commerce Platform</h3>
+                        <p class="project-showcase-description">
+                            Full-featured commerce platform with real-time inventory management, multi-gateway payment processing (Stripe, PayPal, crypto), and analytics dashboard. Engineered for <strong>50K+ daily transactions</strong> with <strong>99.9% uptime SLA</strong>.
+                        </p>
+                        <div class="project-showcase-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-bolt"></i>
+                                <span>Sub-100ms API response times at P99</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-expand-arrows-alt"></i>
+                                <span>Horizontal auto-scaling with K8s</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>PCI DSS Level 1 compliant</span>
+                            </div>
+                        </div>
+                        <div class="project-showcase-stack">
+                            <span class="tech-pill tech-pill--small">React</span>
+                            <span class="tech-pill tech-pill--small">Node.js</span>
+                            <span class="tech-pill tech-pill--small">MongoDB</span>
+                            <span class="tech-pill tech-pill--small">Redis</span>
+                            <span class="tech-pill tech-pill--small">AWS</span>
+                            <span class="tech-pill tech-pill--small">Kubernetes</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-showcase project-showcase--reverse reveal">
+                    <div class="project-showcase-visual">
+                        <div class="project-showcase-skeleton">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                    </div>
+                    <div class="project-showcase-content">
+                        <div class="project-showcase-meta">
+                            <span class="project-role">Full-Stack Developer</span>
+                            <span class="project-duration">4 months &middot; 5-person team</span>
+                        </div>
+                        <h3 class="project-showcase-title">TaskMaster Pro &mdash; Collaborative PM Tool</h3>
+                        <p class="project-showcase-description">
+                            Real-time collaborative project management platform with live document editing, sprint planning, and cross-device synchronization. Supports <strong>10,000+ concurrent users</strong> with conflict-free replicated data types (CRDTs).
+                        </p>
+                        <div class="project-showcase-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-sync-alt"></i>
+                                <span>Real-time sync via WebSockets + CRDTs</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-project-diagram"></i>
+                                <span>Event-driven microservices architecture</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Custom analytics &amp; burndown charts</span>
+                            </div>
+                        </div>
+                        <div class="project-showcase-stack">
+                            <span class="tech-pill tech-pill--small">Vue.js</span>
+                            <span class="tech-pill tech-pill--small">TypeScript</span>
+                            <span class="tech-pill tech-pill--small">Firebase</span>
+                            <span class="tech-pill tech-pill--small">WebSockets</span>
+                            <span class="tech-pill tech-pill--small">Redis Pub/Sub</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-showcase reveal">
+                    <div class="project-showcase-visual">
+                        <div class="project-showcase-skeleton">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-showcase-content">
+                        <div class="project-showcase-meta">
+                            <span class="project-role">Tech Lead</span>
+                            <span class="project-duration">8 months &middot; 12-person team</span>
+                        </div>
+                        <h3 class="project-showcase-title">FinVision &mdash; Financial Analytics Engine</h3>
+                        <p class="project-showcase-description">
+                            Enterprise analytics platform processing <strong>1M+ data points daily</strong> with ML-powered predictive forecasting, customizable dashboards, and real-time market data streaming. SOC 2 Type II certified.
+                        </p>
+                        <div class="project-showcase-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-brain"></i>
+                                <span>TensorFlow-based prediction models</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-stream"></i>
+                                <span>Kafka streaming pipeline (1M+ events/day)</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-chart-area"></i>
+                                <span>D3.js interactive data visualizations</span>
+                            </div>
+                        </div>
+                        <div class="project-showcase-stack">
+                            <span class="tech-pill tech-pill--small">Angular</span>
+                            <span class="tech-pill tech-pill--small">Python</span>
+                            <span class="tech-pill tech-pill--small">PostgreSQL</span>
+                            <span class="tech-pill tech-pill--small">TensorFlow</span>
+                            <span class="tech-pill tech-pill--small">D3.js</span>
+                            <span class="tech-pill tech-pill--small">Kafka</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">&lt;experience&gt;</span>
+                <h2 class="section-title">Career Timeline</h2>
+                <p class="section-subtitle">Where I've built, led, and grown</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <div>
+                                <h3>Senior Full-Stack Developer</h3>
+                                <p class="timeline-company">Example Company</p>
+                            </div>
+                            <span class="timeline-date">2021 &mdash; Present</span>
+                        </div>
+                        <p class="timeline-description">Leading development of enterprise-scale web applications serving 100K+ users. Architected microservices infrastructure reducing deployment time by 60%. Mentored a team of 8 junior developers, establishing code review practices and engineering standards.</p>
+                        <div class="timeline-stack">
+                            <span class="tech-pill tech-pill--small">React</span>
+                            <span class="tech-pill tech-pill--small">Node.js</span>
+                            <span class="tech-pill tech-pill--small">AWS</span>
+                            <span class="tech-pill tech-pill--small">Docker</span>
+                            <span class="tech-pill tech-pill--small">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <div>
+                                <h3>Full-Stack Developer</h3>
+                                <p class="timeline-company">Example Agency</p>
+                            </div>
+                            <span class="timeline-date">2018 &mdash; 2021</span>
+                        </div>
+                        <p class="timeline-description">Developed and maintained 15+ client projects including e-commerce platforms and SaaS applications. Improved application performance by 45% through code optimization, caching strategies, and database query tuning.</p>
+                        <div class="timeline-stack">
+                            <span class="tech-pill tech-pill--small">Vue.js</span>
+                            <span class="tech-pill tech-pill--small">Python</span>
+                            <span class="tech-pill tech-pill--small">PostgreSQL</span>
+                            <span class="tech-pill tech-pill--small">Redis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <div>
+                                <h3>Junior Developer</h3>
+                                <p class="timeline-company">Example Startup</p>
+                            </div>
+                            <span class="timeline-date">2016 &mdash; 2018</span>
+                        </div>
+                        <p class="timeline-description">Built responsive web applications and RESTful APIs from the ground up. Collaborated with design teams to implement pixel-perfect UI components. Participated in agile sprints, code reviews, and architecture discussions.</p>
+                        <div class="timeline-stack">
+                            <span class="tech-pill tech-pill--small">JavaScript</span>
+                            <span class="tech-pill tech-pill--small">Express</span>
+                            <span class="tech-pill tech-pill--small">MongoDB</span>
+                            <span class="tech-pill tech-pill--small">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications reveal">
+                <h3 class="certifications-title">Certifications</h3>
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <i class="fab fa-aws"></i>
+                        <div>
+                            <strong>AWS Solutions Architect</strong>
+                            <span>Professional &mdash; 2022</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fab fa-google"></i>
+                        <div>
+                            <strong>Google Cloud Professional</strong>
+                            <span>Cloud Architect &mdash; 2021</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fab fa-react"></i>
+                        <div>
+                            <strong>React Advanced</strong>
+                            <span>Meta Certified &mdash; 2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-database"></i>
+                        <div>
+                            <strong>MongoDB Developer</strong>
+                            <span>Associate &mdash; 2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writing Section -->
+    <section id="writing" class="writing">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">&lt;writing&gt;</span>
+                <h2 class="section-title">Technical Writing</h2>
+                <p class="section-subtitle">Sharing what I learn about building software at scale</p>
+            </div>
+            <div class="articles-grid">
+                <article class="article-card reveal">
+                    <div class="article-tag">Architecture</div>
+                    <h3>Why Your Microservices Need an Event Bus &mdash; Not Direct HTTP Calls</h3>
+                    <p>Synchronous inter-service communication creates hidden coupling. Here's how event-driven patterns unlock true independence and resilience.</p>
+                    <div class="article-footer">
+                        <span class="article-date">Mar 2026</span>
+                        <span class="article-read">8 min read</span>
+                    </div>
+                </article>
+                <article class="article-card reveal">
+                    <div class="article-tag">Performance</div>
+                    <h3>How We Reduced API Latency from 800ms to 45ms at Scale</h3>
+                    <p>A deep dive into caching layers, query optimization, connection pooling, and the architectural decisions that made our P99 latency sub-50ms.</p>
+                    <div class="article-footer">
+                        <span class="article-date">Jan 2026</span>
+                        <span class="article-read">12 min read</span>
+                    </div>
+                </article>
+                <article class="article-card reveal">
+                    <div class="article-tag">DevOps</div>
+                    <h3>Zero-Downtime Deployments: Our Journey to Continuous Delivery</h3>
+                    <p>From manual deployments to fully automated blue-green releases with canary analysis. The infrastructure and cultural shifts that got us there.</p>
+                    <div class="article-footer">
+                        <span class="article-date">Nov 2025</span>
+                        <span class="article-read">10 min read</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">&lt;testimonials&gt;</span>
+                <h2 class="section-title">What People Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"They are the rare engineer who can zoom out to system architecture and zoom in to performance bottlenecks in the same meeting. Their microservices redesign cut our infra costs by 40%."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">SM</div>
+                        <div>
+                            <strong>Sarah Mitchell</strong>
+                            <span>VP Engineering, Example Company</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Working with them transformed how our team thinks about code quality. They introduced testing practices and CI/CD pipelines that reduced our bug rate by 70%."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">JK</div>
+                        <div>
+                            <strong>James Kim</strong>
+                            <span>CTO, Example Agency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">&lt;contact&gt;</span>
+                <h2 class="section-title">Let's Build Something</h2>
+                <p class="section-subtitle">Open to new opportunities, consulting, and interesting projects</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="terminal-dot terminal-dot--red"></span>
+                                <span class="terminal-dot terminal-dot--yellow"></span>
+                                <span class="terminal-dot terminal-dot--green"></span>
+                            </div>
+                            <span class="terminal-title">contact &mdash; zsh</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">~</span>
+                                <span class="terminal-cmd">cat contact.json</span>
+                            </div>
+                            <div class="terminal-output">
+                                <pre>{
+  "email": "your.email@example.com",
+  "location": "San Francisco, CA",
+  "timezone": "PST (UTC-8)",
+  "status": "open-to-opportunities",
+  "response_time": "&lt; 24 hours",
+  "preferred": ["email", "linkedin"]
+}</pre>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">~</span>
+                                <span class="terminal-cursor">|</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-links">
+                        <a href="mailto:your.email@example.com" class="contact-link-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>your.email@example.com</span>
+                        </a>
+                        <a href="#" class="contact-link-item">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>linkedin.com/in/example</span>
+                        </a>
+                        <a href="#" class="contact-link-item">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/example</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form reveal" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactName">Name</label>
+                            <input type="text" id="contactName" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Email</label>
+                            <input type="email" id="contactEmail" name="email" placeholder="you@company.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactSubject">Subject</label>
+                        <input type="text" id="contactSubject" name="subject" placeholder="Project inquiry, consulting, or just saying hello">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message</label>
+                        <textarea id="contactMessage" name="message" placeholder="Tell me about your project or idea..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full magnetic">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <a href="#" class="logo">
+                        <span class="logo-bracket">{</span>AR<span class="logo-bracket">}</span>
+                    </a>
+                    <p>Designing and building software systems that scale.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
+                    <a href="#" aria-label="Dev.to"><i class="fab fa-dev"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Your Name. Built with clean code and coffee.</p>
+                <p class="footer-meta">Design system v2.0 &middot; No frameworks, just craft</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Canvas for particle constellation -->
+    <canvas id="constellation" class="constellation-canvas"></canvas>
+    <script src="js/script.js"></script>
+</body>
+</html>
