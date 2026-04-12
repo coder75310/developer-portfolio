@@ -34,11 +34,11 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/about.png" width="100%" alt="About Section — Engineering philosophy cards">
+  <img src="screenshots/experience.png" width="100%" alt="Experience Section — Career timeline">
 </p>
 
 <p align="center">
-  <img src="screenshots/experience.png" width="100%" alt="Experience Section — Career timeline">
+  <img src="screenshots/contact.png" width="100%" alt="Contact Section">
 </p>
 
 ### Sections
@@ -208,8 +208,8 @@ developer-portfolio/
 │   └── script.js     # Interactions & animations (~460 lines)
 ├── screenshots/      # README preview images
 │   ├── hero.png
-│   ├── about.png
-│   └── experience.png
+│   ├── experience.png
+│   └── contact.png
 ├── favicon.svg       # Browser tab icon {AR}
 ├── .gitignore        # Git ignore rules
 ├── LICENSE           # MIT License
